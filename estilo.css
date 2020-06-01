@@ -1,0 +1,22 @@
+svg {
+  width: 30%;
+  height: 30%;
+  fill:  orange;
+  stroke: black;
+  stroke-width: 4px;
+  stroke-dasharray: 2266; 
+  stroke-dashoffset: 0; 
+  animation: 5s desenha infinite alternate;	
+} 
+
+@keyframes desenha {
+    from {
+		/* Fim */
+    stroke-dashoffset: 2266;
+  }
+  
+  to {
+		/* Ponto inicial */
+    stroke-dashoffset: 0; 
+  }
+}
